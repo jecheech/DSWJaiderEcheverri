@@ -1,4 +1,39 @@
-#header {
+#principal {
+		margin:15px 30px;
+		background: -webkit-linear-gradient(top, #00F,#3FF);
+		padding:5px;
+}
+
+ul {
+		float:left;
+		display: inline;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+}
+
+li {
 	
-	background:prefix-linear-gradient(top, blue, white);
+	margin: 5px;
+	padding: 5px;
+	width:200px;
+	background: #A6B1B8;
+}
+
+#tabs {
+		background:-webkit-linear-gradient(top, #00F,#3FF);
+		margin: 5px;
+		padding: 5px;
+}
+
+.boton{
+		display: inline;
+		text-align:left;
+		padding:8px 16px;
+}
+
+.contenido {
+		padding:0.01em 16px;
+		margin-top:16px;
+		margin-bottom:16px;
 }

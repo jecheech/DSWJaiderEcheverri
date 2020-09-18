@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Atributos Globales HTML5</title>
+  
+  <style>
+  td {
+		border: ridge;
+	}
+  </style>
+</head>
+
+<body>
+
+<table>
+<tbody>
+<tr style="background-color: red; color: #fff; ">
+<td width="283"><strong>Atributo</strong></td>
+<td width="283"><strong>Descripción</strong></td>
+</tr>
+<tr>
+<td width="283">accesskey="caracter"</td>
+<td width="283">Especifica una tecla de acceso (comando de acceso directo) que activa o hace foco en el elemento. Es un sólo caracter. Los usuarios pueden acceder al elemento mediante  Alt-&lt;tecla&gt; (PC) o Ctrl-&lt;tecla&gt; (Mac).</div></td>
+</tr>
+<tr>
+<td width="283">class="texto"</td>
+<td width="283">Especifica uno o más nombres de clases para un elemento (haciendo referencia a una clase en una hoja de estilo) </td>
+</tr>
+<tr>
+<td width="283">contenteditable="true|false"</td>
+<td width="283">Indica al usuario que puede editar el elemento. Este atributo es soportado completamente en las versiones actuales de los navegadores.<strong> No en HTML 4.01.</strong></div></td>
+</tr>
+<tr>
+<td width="283">contextmenu="id del elemento &lt;menu&gt; para abrir"</td>
+<td width="283"> Especifica un menu contextual para un elemento.  El menú contextual&nbsp;aparece cuando un&nbsp;usuario hace clic&nbsp;en el elemento. <strong>No en HTML 4.01.</strong></div></td>
+</tr>
+<tr>
+<td width="283">dir="ltr|rtl|auto"</td>
+<td width="283">Especifica&nbsp;la dirección del texto&nbsp;para el contenido de&nbsp;un elemento. <strong>ltr</strong> indica de izquierda a derecha; <strong>rtl</strong> indica de derecha a izquierda; y <strong>auto  </strong> indica que la dirección tiene que ser determinada programáticamente.</div></td>
+</tr>
+<tr>
+<td width="283">draggable="true|false"</td>
+<td width="283">Indica si el elemento es arrastrable; se puede mover haciendo click sin soltar, moviéndolo a una nueva posición en la ventana. <strong>No en HTML 4.01</strong>.</div></td>
+</tr>
+<tr>
+<td width="283">dropzone="copy|move|link|string:text string type| file:file type"</td>
+<td width="283">Especifica si cuando los datos arrastrados son soltados, son copiados, movidos, o linkeados.<br>
+<strong>copy</strong> es cuando los datos son copiados;  <strong>move</strong> mueve los datos a una nueva posición; y <strong>link </strong>crea un link a los datos originales. Si se incluye <strong>string:text/plain</strong> esto permite utilizar cualquier texto. El atributo <strong>file</strong>: indica que se puede utilizar un archivo  (ej: file:image/png). Se pueden utilizar los dos, por ejemplo;  dropzone="copy string:text/plain". <strong>No en HTML 4.01.</strong></div></td>
+</tr>
+<tr>
+<td width="283">hidden (hidden="hidden" en XHTML)</td>
+<td width="283">Evita que el elemento y sus descendientes se muestren en el navegador. Cualquier control de formulario o de script dentro de la sección hidden será ejecutado, aunque no se muestra al usuario.  <strong>No en HTML 4.01.</strong></div></td>
+</tr>
+<tr>
+<td width="283">id="text string"</td>
+<td width="283">Especifica un id único por cada elemento.</td>
+</tr>
+<tr>
+<td width="283">inert (inert="inert" en XHTML)</td>
+<td width="283">Indica que el elemento debe ser inerte, lo que significa que no puede ser seleccionado o buscado por el usuario. Sólo <strong>WHATWG* y HTML5.1.</strong></td>
+</tr>
+<tr>
+<td width="283">itemid="text"</td>
+<td width="283"> 
+  Parte del sistema de microdatos que incluye datos leíbles para la máquina; el atributo <strong>itemid</strong> indica un identificador reconocido globalmente (como el ISBN de un libro). Es utilizado junto al <strong>itemtype  </strong>y en el mismo atributo <strong>itemscope</strong> que ha especificado el item. Sólo <strong>WHATWG* y HTML5.1.</strong>
+</div></td>
+</tr>
+<tr>
+<td width="283">itemprop="text"</td>
+<td width="283"> Parte del sistema de microdatos que incluye datos leíbles para la máquina; el atributo <strong>itemprop</strong> especifica el nombre de la propiedad. El contenido del elemento especifica su valor. El valor  puede ser,  un URL especificado por el atributo <strong>href</strong> o una imagen especificada por el atributo <strong>src</strong>. Sólo <strong>WHATWG* y HTML5.1.</strong></div></td>
+</tr>
+<tr>
+<td width="283">itemref="lista de  IDs"</td>
+<td width="283"> 
+  Parte del sistema de microdatos que incluye datos leíbles para la máquina; el atributo <strong>itemref</strong> especifica una lista de elementos (mediante valores ID) de esa misma página a ser incluidos en un item. El atributo <strong>itemref</strong> debe ser usado en el mismo elemento que el atributo <strong>itemscope</strong> que ha especificado el item.  Sólo <strong>WHATWG* y HTML5.1.</strong>
+</div></td>
+</tr>
+<tr>
+<td width="283">itemscope<br>
+  <br></td>
+<td width="283"> Parte del sistema de microdatos que incluye datos leíbles para la máquina; <strong>itemscope</strong> crea un nuevo elemento, un grupo de propiedades (nombre/pares de valores). Sólo <strong>WHATWG* y HTML5.1.</strong></div></td>
+</tr>
+<tr>
+<td width="283"><br>
+itemtype="URL o etiqueta DNS inversa" </td>
+<td width="283"> Parte del sistema de microdatos que incluye datos leíbles para la máquina; el atributo <strong>itemtype</strong> indica el tipo de item estandarizado especificado por el URL  o por una etiqueta DNS inversa. El atributo <strong>itemtype</strong> se utiliza en el mismo elemento que el atributo <strong>itemscope</strong>. Sólo <strong>WHATWG* y HTML5.1.</strong><strong></strong></div></td>
+</tr>
+<tr>
+<td width="283">lang</td>
+<td width="283">Especifica el idioma del contenido del elemento.</td>
+</tr>
+<tr>
+<td width="283">xml:lang</td>
+<td width="283">Especifica el idioma para elementos en documentos XHTML. <strong>Sólo en XHTML. </strong></td>
+</tr>
+<tr>
+<td width="283">spellcheck="true|false"<br></td>
+<td width="283">Especifica si se debe corregir o no la gramática y la ortografía del elemento. <strong>No en HTML 4.01. </strong></div></td>
+</tr>
+<tr>
+<td width="283">style="estilo CSS"</td>
+<td width="283">Especifica un estilo CSS conforme al elemento.</td>
+</tr>
+<tr>
+<td width="283">tabindex="número"<br></td>
+<td width="283">Especifica la posición del elemento en el orden de tabulación del documento. El valor debe ser siempre entre 0 y 32,767. Se usa para tabular a través de los links de la página (o campos de un formulario).</div></td>
+</tr>
+<tr>
+<td width="283">title="texto"</td>
+<td width="283">Especifica información extra sobre un elemento. </td>
+</tr>
+<tr>
+<td width="283">translate="yes|no"</td>
+<td width="283"> Indica si el texto del contenido del elemento y los valores del atributo deben ser traducidos o no al encontrar el documento. <strong>yes</strong> es por defecto; <strong>no</strong> deja el contenido del elemento sin cambiar. <strong>No en HTML 4.01.</strong></div></td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
