@@ -1,0 +1,79 @@
+﻿body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav > li {
+    float: left;
+    display: inline;
+    padding: 4px;
+}
+
+.nav li a {
+    background: #333333;
+    color: #FFF;
+    display: block;
+    border: 1px solid;
+    padding: 20px 20px;
+}
+
+.nav li a:hover {
+        background: #b3b3b3;
+    }
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li .flecha {
+    font-size: 9px;
+    padding-left: 6px;
+    display: none;
+}
+
+.encabezado {
+    background-image: url(imagen/encabezado.png);
+    opacity:0.7;
+}
+
+.Titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    float:initial;
+}
+
+
+.detalle {
+    float: left;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.detalle li {
+    margin: 5px;
+    padding: 5px;
+    width: 700px;
+    background: #005883;
+    color: aliceblue;
+}
+
+#tabs {
+    background: -webkit-linear-gradient(top, #F47920,#F0B429);
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.boton {
+    display: inline;
+    text-align: left;
+    padding: 8px 16px;
+}
