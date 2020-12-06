@@ -66,6 +66,9 @@
 
 #tabs {
     background: -webkit-linear-gradient(top, #F47920,#F0B429);
+	 background: -moz-linear-gradient(top, #F47920,#F0B429);
+	 background: -ms-linear-gradient(top, #F47920,#F0B429);
+	 background: -o-linear-gradient(top, #F47920,#F0B429);
     margin: 5px;
     padding: 5px;
 }
